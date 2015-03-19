@@ -22,3 +22,11 @@ test('should return virtual dom instance', function (assert) {
 
   assert.end();
 });
+
+test('should throw with two top level elements', function (assert) {
+  var html = '<div></div><div></div>';
+
+  assert.throws(tovdom.bind(null, html));
+
+  assert.end();
+});

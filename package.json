@@ -4,7 +4,8 @@
   "description": "Convert an html string into a virtual dom instance",
   "main": "src/index.js",
   "scripts": {
-    "test": "jshint . && tape test/index.js"
+    "test": "jshint . && tape test/index.js",
+    "build": "browserify src/index.js --standalone tovdom | uglifyjs > dist/tovdom.js"
   },
   "repository": {
     "type": "git",

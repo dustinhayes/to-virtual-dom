@@ -1,0 +1,29 @@
+{
+  "name": "to-virtual-dom",
+  "version": "1.0.0",
+  "description": "Convert an html string into a virtual dom instance",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jshint . && tape test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dustinhayes/to-virtual-dom.git"
+  },
+  "author": "Dustin Hayes <dustinmichaelh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dustinhayes/to-virtual-dom/issues"
+  },
+  "homepage": "https://github.com/dustinhayes/to-virtual-dom",
+  "dependencies": {
+    "htmlparser2": "^3.8.2",
+    "virtual-dom": "^2.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "jshint": "^2.6.3",
+    "tape": "^3.5.0",
+    "uglify-js": "^2.4.17"
+  }
+}

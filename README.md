@@ -1,5 +1,10 @@
 # to-virtual-dom
-Convert an html string into a virtual dom instance
+
+[![Build Status](https://travis-ci.org/dustinhayes/to-virtual-dom.svg?branch=master)](https://travis-ci.org/dustinhayes/to-virtual-dom)
+
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/dh--to-virtual-dom.svg)](https://saucelabs.com/u/dh--to-virtual-dom)
+
+> Convert an html string into a virtual dom instance
 
 # Install
 

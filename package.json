@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jshint . && tape test/index.js",
+    "travis-test": "npm run test && zuul -- test/index.js",
     "build": "browserify src/index.js --standalone tovdom | uglifyjs > dist/tovdom.js"
   },
   "repository": {
@@ -25,6 +26,7 @@
     "browserify": "^9.0.3",
     "jshint": "^2.6.3",
     "tape": "^3.5.0",
-    "uglify-js": "^2.4.17"
+    "uglify-js": "^2.4.17",
+    "zuul": "^2.1.1"
   }
 }
